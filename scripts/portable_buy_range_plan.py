@@ -153,8 +153,8 @@ def base_ladder(profile: str) -> dict[str, tuple[float, float, float, str]]:
         },
         "core_stock": {
             "aggressive": (0.01, 0.04, 0.30, "starter only on a pullback toward the technical anchor; do not chase above it"),
-            "standard": (0.04, 0.075, 0.40, "main add zone below the anchor"),
-            "conservative": (0.075, 0.30, 0.30, "deep reserve zone; require stabilization first"),
+            "standard": (0.04, 0.06, 0.40, "main add zone below the anchor"),
+            "conservative": (0.06, 0.16, 0.30, "reserve zone; require stabilization first"),
         },
         "volatile_stock": {
             "aggressive": (-0.03, 0.00, 0.30, "starter only near the technical anchor; do not chase far above it"),
