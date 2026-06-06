@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portable Buy Range Plan"
+  short_description: "Free-data technical buy ranges"
+  default_prompt: "Use $portable-buy-range-plan to create a beginner-friendly buy range for NVDA."
